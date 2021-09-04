@@ -4,15 +4,15 @@ function theFunction(x) {
 	/*
 	// Something like ...
 	let diagram = DiagramBuilder.begin().setContext({numbers: [{x}]})
-		.add(ResolveContextFeatures, {
-			path: 'numbers'
+		.add(Input, {
+			node_name: 'numbers'
 		})
 		.add(Multiply, {
 			factor: 2
 		})
 		.add(Output);
 	
-	const y = diagram.run().defaultOutput()
+	const y = diagram.run({numbers: [x]}).defaultOutput()
 	*/
 
 	const y = x
