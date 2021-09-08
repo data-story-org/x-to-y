@@ -1231,9 +1231,14 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
   integrity sha512-ij4wRiunFfaJxjB0BdrYHIH8FxBJpOwNPhhAcunlmPdXudL1WQV1qoP9un6JsEBAgQH+7UXyyjh0g7jTxXK6tg==
 
-"@data-story-org/core@link:../core":
-  version "0.0.0"
-  uid ""
+"@data-story-org/core@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@data-story-org/core/-/core-0.1.0.tgz#0e420ca4e734fe52f15ade1503763a0681813b5d"
+  integrity sha512-zI9MiJUygnYdKkJtWiiArBf3MIfr77g3Xjd69XJiCOD5uzmLkgr6xojsCqgy8L2Gmblf8oTGIueRxdC2tD6UNA==
+  dependencies:
+    axios "^0.21.1"
+    browser-or-node "^1.3.0"
+    laravel-mix "^6.0.28"
 
 "@discoveryjs/json-ext@^0.5.0":
   version "0.5.3"
